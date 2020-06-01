@@ -1,0 +1,403 @@
+<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>The Machine Learning Engineer Newsletter</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="google-site-verification" content="9rfgBQEvfnZ7HS_kBzINrlrJ-_sJcyJxqEUltqvP9Og" />
+        <meta name="author" content="The Machine Learning Engineer Newsletter">
+        <meta name="description" content="Curated articles, tutorials and blog posts from experienced Machine Learning professionals. Obtain insights on best practices, tools and techniques in machine learning explainability, reproducibility, model evaluation, feature analysis and beyond.">
+        <link rel="canonical" href="https://ethical.institute">
+        <link rel="icon" href="images/logos/eml-logo-white.png">
+
+
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+
+        <!-- FACEBOOK -->
+        <meta property="og:url" content="https://ethical.institute">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="The Machine Learning Engineer Newsletter">
+        <meta property="og:description" content="Curated articles, tutorials and blog posts from experienced Machine Learning professionals. Obtain insights on best practices, tools and techniques in machine learning explainability, reproducibility, model evaluation, feature analysis and beyond.">
+        <meta property="og:image" content="https://ethical.institute/images/mle.jpg">
+
+
+
+        <!-- THE TWITTER -->
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@EthicalML">
+        <meta name="twitter:creator" content="@EthicalML">
+        <meta name="twitter:title" content="The Machine Learning Engineer Newsletter">
+        <meta name="twitter:description" content="Curated articles, tutorials and blog posts from experienced Machine Learning professionals. Obtain insights on best practices, tools and techniques in machine learning explainability, reproducibility, model evaluation, feature analysis and beyond.">
+        <meta name="twitter:image:src" content="https://ethical.institute/images/mle.jpg">
+
+
+        <!-- G++ -->
+        <meta itemprop="name" content="The Machine Learning Engineer Newsletter">
+        <meta itemprop="description" content="Curated articles, tutorials and blog posts from experienced Machine Learning professionals. Obtain insights on best practices, tools and techniques in machine learning explainability, reproducibility, model evaluation, feature analysis and beyond.">
+        <meta itemprop="image" content="https://ethical.institute/images/mle.jpg">
+
+
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/jquery.dropotron.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/skel.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/three.min.js"></script>
+        <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+        <script src="assets/js/Projector.js"></script>
+        <script src="assets/js/CanvasRenderer.js"></script>
+        <script src="assets/js/stats.min.js"></script>
+        <script src="assets/js/main.js"></script>
+
+	</head>
+	<body class="landing">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+                    <h1 id="logo"><a href="index.html"><img src="images/logos/eml-logo-white.png" height="15px"> The Institute for Ethical AI & Machine Learning</a></h1>
+					<nav id="nav">
+						<ul style="font-weight: bold">
+							<li><a href="index.html">Home</a></li>
+							<li>
+                            <a href="principles.html">Principles</a>
+                            <ul>
+                                <li><a href="principles.html#commitment-1">#1 Human Augmentation</a></li>
+                                <li><a href="principles.html#commitment-2">#2 Bias Evaluation</a></li>
+                                <li><a href="principles.html#commitment-3">#3 Explainability</a></li>
+                                <li><a href="principles.html#commitment-4">#4 Reproducible Operations</a></li>
+                                <li><a href="principles.html#commitment-5">#5 Displacement Strategy</a></li>
+                                <li><a href="principles.html#commitment-6">#6 Practical Accuracy</a></li>
+                                <li><a href="principles.html#commitment-7">#7 Trust by Privacy</a></li>
+                                <li><a href="principles.html#commitment-8">#8 Security Risks</a></li>
+                            </ul>
+                            <li>
+                                <a href="rfx.html">AI-RFX Framework</a>
+                            </li>
+                            <li>
+                                <a href="xai.html">Explainable AI</a>
+                                <ul>
+                                    <li><a href="xai.html">XAI Framework</a></li>
+                                    <li><a href="https://github.com/EthicalML/awesome-machine-learning-operations">Machine Learning Operations List</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="mle.html">Newsletter</a>
+                            </li>
+	
+                            </li>
+							<li><a href="#contact" class="button special">Contact us or Join</a></li>
+						</ul>
+					</nav>
+				</header>
+
+				<section id="banner" style="font-size: 11pt">
+					<div class="content" style="text-align: center">
+						<img class="logo-image" src="images/logos/eml-logo-white.png" alt="" style="max-width: 440px; width: 80%; margin-top: 40px" />
+						<header style="font-weight: bold">
+							<h2>The Machine Learning Engineer Newsletter</h2>
+                            <p  style="max-width: 850px">
+                                Receive curated articles, tutorials and blog posts from experienced Machine Learning professionals. Obtain insights on best practices, tools and techniques in machine learning explainability, reproducibility, model evaluation, feature analysis and beyond. Check out our previous issues or subscribe below: 
+                                <br>
+                                <br>
+
+                                <style>
+.issues-container{
+    height: 105px; 
+    width: 100%;
+    max-width: 400px;
+    overflow-y: scroll;
+    border: 5px solid rgba(16,199,155, 1.0);
+    margin-left: auto;
+    scrollbar-width: none;
+    margin-right: auto;
+}
+.issue-container{
+    padding: 5px 5px 5px 5px;
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit;
+    width: 100%;
+    border-bottom: none;
+    display: block;
+}
+.issue-container:hover {
+    background-color: rgb(16,199,155);
+}
+
+                                </style>
+                                <div class="issues-container">
+                                    <a href="/mle/75.html" class="issue-container">
+                                        Issue #75
+                                    </a>
+                                    <a href="/mle/74.html" class="issue-container">
+                                        Issue #74
+                                    </a>
+                                    <a href="/mle/73.html" class="issue-container">
+                                        Issue #73
+                                    </a>
+                                    <a href="/mle/72.html" class="issue-container">
+                                        Issue #72
+                                    </a>
+                                    <a href="/mle/71.html" class="issue-container">
+                                        Issue #71
+                                    </a>
+                                    <a href="/mle/70.html" class="issue-container">
+                                        Issue #70
+                                    </a>
+                                    <a href="/mle/69.html" class="issue-container">
+                                        Issue #69
+                                    </a>
+                                    <a href="/mle/68.html" class="issue-container">
+                                        Issue #68
+                                    </a>
+                                    <a href="/mle/67.html" class="issue-container">
+                                        Issue #67
+                                    </a>
+                                    <a href="/mle/66.html" class="issue-container">
+                                        Issue #66
+                                    </a>
+                                    <a href="/mle/65.html" class="issue-container">
+                                        Issue #65
+                                    </a>
+                                    <a href="/mle/64.html" class="issue-container">
+                                        Issue #64
+                                    </a>
+                                    <a href="/mle/63.html" class="issue-container">
+                                        Issue #63
+                                    </a>
+                                    <a href="/mle/62.html" class="issue-container">
+                                        Issue #62
+                                    </a>
+                                    <a href="/mle/61.html" class="issue-container">
+                                        Issue #61
+                                    </a>
+                                    <a href="/mle/60.html" class="issue-container">
+                                        Issue #60
+                                    </a>
+                                    <a href="/mle/59.html" class="issue-container">
+                                        Issue #59
+                                    </a>
+                                    <a href="/mle/58.html" class="issue-container">
+                                        Issue #58
+                                    </a>
+                                    <a href="/mle/57.html" class="issue-container">
+                                        Issue #57
+                                    </a>
+                                    <a href="/mle/56.html" class="issue-container">
+                                        Issue #56
+                                    </a>
+                                    <a href="/mle/55.html" class="issue-container">
+                                        Issue #55
+                                    </a>
+                                    <a href="/mle/54.html" class="issue-container">
+                                        Issue #54
+                                    </a>
+                                    <a href="/mle/53.html" class="issue-container">
+                                        Issue #53
+                                    </a>
+                                    <a href="/mle/52.html" class="issue-container">
+                                        Issue #52
+                                    </a>
+                                    <a href="/mle/51.html" class="issue-container">
+                                        Issue #51
+                                    </a>
+                                    <a href="/mle/50.html" class="issue-container">
+                                        Issue #50
+                                    </a>
+                                    <a href="/mle/49.html" class="issue-container">
+                                        Issue #49
+                                    </a>
+                                    <a href="/mle/48.html" class="issue-container">
+                                        Issue #48
+                                    </a>
+                                    <a href="/mle/47.html" class="issue-container">
+                                        Issue #47
+                                    </a>
+                                    <a href="/mle/46.html" class="issue-container">
+                                        Issue #46
+                                    </a>
+                                    <a href="/mle/45.html" class="issue-container">
+                                        Issue #45
+                                    </a>
+                                    <a href="/mle/44.html" class="issue-container">
+                                        Issue #44
+                                    </a>
+                                    <a href="/mle/43.html" class="issue-container">
+                                        Issue #43
+                                    </a>
+                                    <a href="/mle/42.html" class="issue-container">
+                                        Issue #42
+                                    </a>
+                                    <a href="/mle/41.html" class="issue-container">
+                                        Issue #41
+                                    </a>
+                                    <a href="/mle/40.html" class="issue-container">
+                                        Issue #40
+                                    </a>
+                                    <a href="/mle/39.html" class="issue-container">
+                                        Issue #39
+                                    </a>
+                                    <a href="/mle/38.html" class="issue-container">
+                                        Issue #38
+                                    </a>
+                                    <a href="/mle/37.html" class="issue-container">
+                                        Issue #37
+                                    </a>
+                                    <a href="/mle/36.html" class="issue-container">
+                                        Issue #36
+                                    </a>
+                                    <a href="/mle/35.html" class="issue-container">
+                                        Issue #35
+                                    </a>
+                                    <a href="/mle/34.html" class="issue-container">
+                                        Issue #34
+                                    </a>
+                                    <a href="/mle/33.html" class="issue-container">
+                                        Issue #33
+                                    </a>
+                                    <a href="/mle/32.html" class="issue-container">
+                                        Issue #32
+                                    </a>
+                                    <a href="/mle/31.html" class="issue-container">
+                                        Issue #31
+                                    </a>
+                                    <a href="/mle/30.html" class="issue-container">
+                                        Issue #30
+                                    </a>
+                                    <a href="/mle/29.html" class="issue-container">
+                                        Issue #29
+                                    </a>
+                                    <a href="/mle/28.html" class="issue-container">
+                                        Issue #28
+                                    </a>
+                                    <a href="/mle/27.html" class="issue-container">
+                                        Issue #27
+                                    </a>
+                                    <a href="/mle/26.html" class="issue-container">
+                                        Issue #26
+                                    </a>
+                                    <a href="/mle/25.html" class="issue-container">
+                                        Issue #25
+                                    </a>
+                                    <a href="/mle/24.html" class="issue-container">
+                                        Issue #24
+                                    </a>
+                                    <a href="/mle/23.html" class="issue-container">
+                                        Issue #23
+                                    </a>
+                                    <a href="/mle/22.html" class="issue-container">
+                                        Issue #22
+                                    </a>
+                                    <a href="/mle/21.html" class="issue-container">
+                                        Issue #21
+                                    </a>
+                                    <a href="/mle/20.html" class="issue-container">
+                                        Issue #20
+                                    </a>
+                                    <a href="/mle/19.html" class="issue-container">
+                                        Issue #19
+                                    </a>
+                                    <a href="/mle/18.html" class="issue-container">
+                                        Issue #18
+                                    </a>
+                                    <a href="/mle/17.html" class="issue-container">
+                                        Issue #17
+                                    </a>
+                                    <a href="/mle/16.html" class="issue-container">
+                                        Issue #16
+                                    </a>
+                                    <a href="/mle/15.html" class="issue-container">
+                                        Issue #15
+                                    </a>
+                                    <a href="/mle/14.html" class="issue-container">
+                                        Issue #14
+                                    </a>
+                                    <a href="/mle/13.html" class="issue-container">
+                                        Issue #13
+                                    </a>
+                                    <a href="/mle/12.html" class="issue-container">
+                                        Issue #12
+                                    </a>
+                                    <a href="/mle/11.html" class="issue-container">
+                                        Issue #11
+                                    </a>
+                                    <a href="/mle/10.html" class="issue-container">
+                                        Issue #10
+                                    </a>
+                                    <a href="/mle/9.html" class="issue-container">
+                                        Issue #9
+                                    </a>
+                                    <a href="/mle/8.html" class="issue-container">
+                                        Issue #8
+                                    </a>
+                                    <a href="/mle/7.html" class="issue-container">
+                                        Issue #7
+                                    </a>
+                                    <a href="/mle/6.html" class="issue-container">
+                                        Issue #6
+                                    </a>
+                                    <a href="/mle/5.html" class="issue-container">
+                                        Issue #5
+                                    </a>
+                                    <a href="/mle/4.html" class="issue-container">
+                                        Issue #4
+                                    </a>
+                                    <a href="/mle/3.html" class="issue-container">
+                                        Issue #3
+                                    </a>
+                                    <a href="/mle/2.html" class="issue-container">
+                                        Issue #2
+                                    </a>
+                                    <a href="/mle/1.html" class="issue-container">
+                                        Issue #1
+                                    </a>
+                                </div>
+                                <iframe width="540" height="416" src="https://my.sendinblue.com/users/subscribe/js_id/3rb9p/id/2" frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;max-width: 100%; margin-bottom: -200px; margin-top: -10px"></iframe>
+                            </p>
+						</header>
+                    <br>
+					</div>
+
+					<a href="#one" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="https://twitter.com/EthicalML" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                        <li><a href="https://facebook.com/EthicalML" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="https://www.linkedin.com/company/the-institute-for-ethical-machine-learning/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/EthicalML" class="icon fa-github"><span class="label">GitHub</span></a></li>
+                        <li><a href="mailto:a@ethical.institute" class="icon fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; The Institute for Ethical AI & ML. 
+                            All rights reserved.</li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-89407852-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-89407852-2');
+    </script>
+
+	</body>
+</html>
